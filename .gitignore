@@ -1,0 +1,4 @@
+analyticsapi/
+__pycache__/
+.env
+.vscode/
