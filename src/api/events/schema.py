@@ -9,3 +9,9 @@ class EventSchema(BaseModel):
 
 class EventListSchema(BaseModel):
     results: List[EventSchema]
+
+class EventCreateSchema(BaseModel):
+    path:str
+
+class EventUpdateSchema(BaseModel):
+    description:str
